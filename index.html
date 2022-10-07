@@ -9,12 +9,15 @@
 
 <h2>first grid</h2>
 
-<details>
-  <summary>learning: grid lines</summary>
-  <p>You can refer to line numbers when placing grid items.</p>
-</details>
+<div class="details-container">
+  <details>
+    <summary>learning: grid lines</summary>
+    <p>You can refer to line numbers when placing grid items.</p>
+  </details>
+</div>
 
-<div class="grid-container">
+
+<div id="first-grid">
   <div class="item1">1</div>
   <div class="item2">2</div>
   <div class="item3">3</div>  
@@ -25,7 +28,28 @@
   <div class="item8">8</div>
 </div>
 
+<h2>second grid</h2>
 
+<div class="details-container">
+  <details>
+    <summary>learning: grid container</summary>
+    <p>new properties:</p>
+    <ul>
+      <li>grid-template-columns</li>
+      <li>grid-template-rows</li>
+      <li>justify-content</li>
+      <li>align-content</li>
+    </ul>
+  </details>
+</div>
+
+
+<div id="second-grid" class="grid-container">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+  <div class="four"></div>
+</div>
 
 </body>
 </html>
