@@ -47,10 +47,12 @@ ul {
   /* second grid */
   #second-grid {
     display: grid;
+    height: 600px;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px;
     column-gap: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-content: center;
     padding: 20px;
     margin: 40px 0;
     background-color: darkslategray;
