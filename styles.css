@@ -67,8 +67,8 @@ ul {
   /* third grid */
   #third-grid {
     display: grid;
-    /* height: 600px;
-    grid-template-columns: auto auto auto; */
+    height: 600px;
+    grid-template-columns: auto auto auto auto;
     border: 4px solid slategray;
     gap: 20px;
     padding: 20px;
@@ -78,6 +78,7 @@ ul {
   /* items in third grid */
   #third-grid > div {
     background-color: indianred;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,5 +86,23 @@ ul {
   }
 
   .third-item-one {
-    
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  .third-item-two {
+    grid-column: 3;
+  }
+
+  .third-item-three {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+  }
+
+  .third-item-four {
+    grid-row: 2 / span 2;
+  }
+
+  .third-item-five {
+   grid-column: 1 / span 3; 
   }
